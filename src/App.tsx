@@ -1,14 +1,23 @@
+import { Navbar } from './components/Navbar'
+import { Hero } from './components/Hero'
+import { Stack } from './components/Stack'
+import { Projects } from './components/Projects'
+import { About } from './components/About'
+import { Academic } from './components/Academic'
+import { Lifestyle } from './components/Lifestyle'
+import { Contact } from './components/Contact'
+
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50">
-      <div className="text-center p-8 bg-white rounded-xl shadow-lg border border-gray-100">
-        <h1 className="text-4xl font-extrabold text-blue-600 mb-2">
-          LMB Tech Hub
-        </h1>
-        <p className="text-lg text-gray-600 font-medium">
-          Configuração blindada e rodando!
-        </p>
-      </div>
+    <div className="min-h-screen font-sans">
+      <Navbar />
+      <Hero />
+      <Stack />
+      <Projects />
+      <About />
+      <Academic />
+      <Lifestyle />
+      <Contact />
     </div>
   )
 }
