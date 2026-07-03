@@ -1,15 +1,15 @@
 export function Projects() {
   const myProjects = [
     {
-      title: "TIROAD",
-      description: "An interactive roadmap tool built to map, visualize, and plan technology learning paths and architectures.",
-      techStack: ["React", "Vite", "React Flow"],
-      link: "#"
+      title: "Komanda",
+      description: "System for recording sales and management information.",
+      techStack: ["PostgreSQL", "Next.js", "Supabase","Vercel"],
+      link: "https://komanda-next.vercel.app/"
     },
     {
-      title: "Photography Portfolio Platform",
-      description: "A luxury-tier web platform custom-developed to host, showcase, and sell professional high-resolution photography work.",
-      techStack: ["TypeScript", "React", "Tailwind CSS"],
+      title: "Open cnpj data pipeline",
+      description: "A Data Engineering pipeline processing Brazilian public corporate data (CNPJ). Features automated collection, log auditing, and raw data preparation for future ETL and analytics.",
+      techStack: ["Python", "Pandas", "Streamlit", "PostgreSQL"],
       link: "#"
     },
     {
@@ -62,6 +62,8 @@ export function Projects() {
                 </div>
                 <a 
                   href={project.link} 
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-blue-600 font-bold hover:text-blue-800 transition-colors"
                 >
                   View Details
