@@ -30,7 +30,7 @@ export function Navbar() {
         setLmbText(() => 
           originalLMB
             .split("")
-            .map((letter, index) => {
+            .map((_, index) => {
               if (index < iteration) return originalLMB[index];
               return characters[Math.floor(Math.random() * characters.length)];
             })
