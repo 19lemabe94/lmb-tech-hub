@@ -23,7 +23,7 @@ export function Lifestyle() {
   ];
 
   return (
-    <section id="lifestyle" className="py-24">
+    <section id="lifestyle" className="relative py-32 bg-stone-50 overflow-hidden">
       <div className="max-w-7xl mx-auto px-8 w-full">
         
         {/* Cabeçalho */}

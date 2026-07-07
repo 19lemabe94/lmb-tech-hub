@@ -42,7 +42,7 @@ export function Stack() {
   ];
 
   return (
-    <section id="stack" className="py-24 bg-stone-50">
+    <section id="stack" className="py-24 bg-stone-100 border-t border-stone-200">
       <div className="max-w-6xl mx-auto px-8">
         
         <div className="mb-16">
